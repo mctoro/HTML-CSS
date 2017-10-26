@@ -1,0 +1,148 @@
+/*RESET*/
+
+* {
+    /*si ponemos * yno body aplica a todo*/
+
+    /*aquí vamos a modificar todas las propiedades del cuerpo*/
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+
+    font-family: 'Open Sans', sans-serif;
+    /*le estamos diciendo que utilice open sans pero si no la encuentra, que utilice sans-serif*/
+
+}
+a{
+
+    text-decoration: none;
+
+}
+
+/*FIN DEL RESET*/
+
+/*cabecera*/
+
+header{
+
+    background: #FF8384;
+    height: 300px;
+    width: 100%;
+    text-align: center;
+    display: table;
+
+}
+
+header div {
+
+    display: table-cell;
+    vertical-align: middle;
+
+}
+
+header div h1 {
+
+    color: white; /* o #fff*/
+    font-weight: 300;
+    font-size: 3em;
+    
+
+
+}
+
+header div h3 {
+
+    font-weight: 300;
+    color: rgba(0,0,0,.7);
+
+}
+
+span {
+
+    color: #BC4545;
+
+}
+
+
+/*MENU*/
+
+nav {
+
+    text-align: center;    
+
+}
+
+nav ul {
+
+    border-bottom: 2px rgba(0,0,0,.15) solid;
+
+}
+
+nav ul li {
+
+    display: inline-block;
+    padding: 20px;
+    border-bottom: 3px #fff solid;
+
+}
+
+nav ul li a {
+
+    display: block;
+    /*    padding: 12px;*/
+    color: #BC4545;
+    /*    border: 1px rgba (0,0,0,.1) solid;*/
+    transition: all .3s;
+
+}
+
+/*para que ocurra un evento al pasar el ratón, existe un pseudoelemento*/
+nav ul li:hover {
+    
+    border-bottom: 3px #BC4545 solid;
+    
+}
+
+nav ul li a:hover {
+
+    color: black;
+    transform: scale(1.2);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
